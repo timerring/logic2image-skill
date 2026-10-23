@@ -79,7 +79,7 @@ render widths are also required. Reading floors are configurable with
 | `assets/` | Complete semantic palette |
 | `templates/` | Content blueprint and SVG scaffold |
 | `scripts/` | Scaffold, source checks and browser rendering |
-| `examples/` | SVG examples and PNG previews |
+| `examples/` | SVG examples |
 
 ## Acknowledgements
 
