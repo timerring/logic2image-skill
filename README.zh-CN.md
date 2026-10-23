@@ -4,6 +4,22 @@
 
 把文章里的逻辑，转化成清晰的解释型配图。
 
+## 示例
+
+两张金融文章配图，分别展示不同的表达方式。点击预览可打开可编辑 SVG。
+
+### 合约双方
+
+买方支付权利金获得权利，卖方收取权利金并承担被指派时的义务。
+
+[![权利、义务与权利金流向](examples/contract-counterparties.png)](examples/contract-counterparties.svg)
+
+### 收益曲线
+
+以一金衡盎司黄金看涨期权为例：行权价 4,150 USD、权利金 50 USD，不计费用。
+
+[![行权价值与净收益](examples/option-payoff.png)](examples/option-payoff.svg)
+
 ## 能做什么
 
 - 阅读文章，梳理关键关系，建议适合配图的位置。
@@ -57,6 +73,7 @@ python3 scripts/render_svg.py figure.svg --output-dir previews --widths 800 600
 | `assets/` | 完整语义配色 |
 | `templates/` | 内容蓝图与 SVG 框架 |
 | `scripts/` | 框架生成、源码检查与浏览器渲染 |
+| `examples/` | SVG 示例与 PNG 预览 |
 
 ## 致谢
 
