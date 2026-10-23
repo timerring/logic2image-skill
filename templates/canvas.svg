@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="$prefix" class="logic2image"
+  width="100%" viewBox="0 0 $width $height" role="img"
+  aria-labelledby="$prefix-title" aria-describedby="$prefix-desc">
+  <title id="$prefix-title">$title</title>
+  <desc id="$prefix-desc">$description</desc>
+  <defs>
+    <style>$css</style>
+    <filter id="$prefix-sketch" x="-3%" y="-3%" width="106%" height="106%">
+      <feTurbulence type="turbulence" baseFrequency="0.03" numOctaves="4" seed="2" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="2.5" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <marker id="$prefix-arrow" viewBox="0 0 12 12" refX="10" refY="6"
+      markerWidth="10" markerHeight="10" orient="auto-start-reverse">
+      <path d="M2 3L10 6L2 9Z" fill="context-stroke"/>
+    </marker>
+  </defs>
+  <rect width="$width" height="$height" fill="#ffffff"/>
+  <text class="rg-title" data-rg-title="true" x="$center" y="$title_y" text-anchor="middle">$title</text>
+  <g data-rg-content="true">
+    <!-- Add the approved blueprint's nodes, data and connections here. -->
+  </g>
+</svg>

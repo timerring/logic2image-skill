@@ -1,0 +1,16 @@
+{
+  "neutral_ink": "#383a42",
+  "secondary_ink": "#696c77",
+  "background": "#ffffff",
+  "roles": {
+    "purple": {"fill": "#faecf9", "stroke": "#a626a4", "ink": "#771977", "supporting": "#a626a4"},
+    "teal": {"fill": "#e1f3fa", "stroke": "#0184bc", "ink": "#015f88", "supporting": "#0184bc"},
+    "coral": {"fill": "#fbeee2", "stroke": "#ca6f1e", "ink": "#925113", "supporting": "#ca6f1e"},
+    "pink": {"fill": "#fce8ee", "stroke": "#b83260", "ink": "#852344", "supporting": "#b83260"},
+    "gray": {"fill": "#f0f0f1", "stroke": "#5c5e66", "ink": "#383a42", "supporting": "#5c5e66"},
+    "blue": {"fill": "#e6efff", "stroke": "#4078f2", "ink": "#1a52cf", "supporting": "#4078f2"},
+    "green": {"fill": "#e8f3e2", "stroke": "#50a14f", "ink": "#3a7639", "supporting": "#50a14f"},
+    "amber": {"fill": "#fbeed8", "stroke": "#c18401", "ink": "#8c6001", "supporting": "#c18401"},
+    "red": {"fill": "#fde8e6", "stroke": "#e45649", "ink": "#a83329", "supporting": "#e45649"}
+  }
+}
