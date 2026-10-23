@@ -6,19 +6,22 @@
 
 ## 示例
 
-两张金融文章配图，分别展示不同的表达方式，直接以 SVG 显示。
+以下为 logic2image 生成的示例图。点击图片可查看完整 SVG。
 
-### 合约双方
-
-买方支付权利金获得权利，卖方收取权利金并承担被指派时的义务。
-
-<img src="examples/contract-counterparties.svg" alt="权利、义务与权利金流向" width="520">
-
-### 收益曲线
-
-以一金衡盎司黄金看涨期权为例：行权价 4,150 USD、权利金 50 USD，不计费用。
-
-<img src="examples/option-payoff.svg" alt="行权价值与净收益" width="520">
+<table>
+  <tr>
+    <th width="50%">合约双方</th>
+    <th width="50%">收益曲线</th>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><a href="examples/contract-counterparties.svg"><img src="examples/contract-counterparties.svg" alt="权利、义务与权利金流向" width="360"></a></td>
+    <td align="center" valign="top"><a href="examples/option-payoff.svg"><img src="examples/option-payoff.svg" alt="行权价值与净收益" width="360"></a></td>
+  </tr>
+  <tr>
+    <td align="center">买方的权利与卖方的义务<br>权利金流向。</td>
+    <td align="center">黄金看涨期权示例（一金衡盎司）<br>行权价 4,150 USD，权利金 50 USD。<br>不计费用。</td>
+  </tr>
+</table>
 
 ## 能做什么
 

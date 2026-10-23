@@ -6,19 +6,22 @@ Turn an article's logic into clear explanatory diagrams.
 
 ## Examples
 
-Two illustrations from finance articles, displayed directly as SVG.
+Example diagrams generated with logic2image. Click a preview to view the full SVG.
 
-### Contract counterparties
-
-The buyer pays for a right; the seller accepts an obligation if assigned.
-
-<img src="examples/contract-counterparties.svg" alt="Rights, obligations and premium flow" width="520">
-
-### Option payoff
-
-An illustrative one-troy-ounce gold call: 4,150 USD strike, 50 USD premium, costs excluded.
-
-<img src="examples/option-payoff.svg" alt="Exercise value versus net profit" width="520">
+<table>
+  <tr>
+    <th width="50%">Contract counterparties</th>
+    <th width="50%">Option payoff</th>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><a href="examples/contract-counterparties.svg"><img src="examples/contract-counterparties.svg" alt="Rights, obligations and premium flow" width="360"></a></td>
+    <td align="center" valign="top"><a href="examples/option-payoff.svg"><img src="examples/option-payoff.svg" alt="Exercise value versus net profit" width="360"></a></td>
+  </tr>
+  <tr>
+    <td align="center">Buyer rights, seller obligations<br>and premium flow.</td>
+    <td align="center">Illustrative gold call, one troy ounce.<br>Strike 4,150 USD; premium 50 USD.<br>Costs excluded.</td>
+  </tr>
+</table>
 
 ## What it does
 
