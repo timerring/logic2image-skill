@@ -12,13 +12,13 @@ Two illustrations from finance articles, displayed directly as SVG.
 
 The buyer pays for a right; the seller accepts an obligation if assigned.
 
-![Rights, obligations and premium flow](examples/contract-counterparties.svg)
+<img src="examples/contract-counterparties.svg" alt="Rights, obligations and premium flow" width="520">
 
 ### Option payoff
 
 An illustrative one-troy-ounce gold call: 4,150 USD strike, 50 USD premium, costs excluded.
 
-![Exercise value versus net profit](examples/option-payoff.svg)
+<img src="examples/option-payoff.svg" alt="Exercise value versus net profit" width="520">
 
 ## What it does
 

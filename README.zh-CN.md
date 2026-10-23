@@ -12,13 +12,13 @@
 
 买方支付权利金获得权利，卖方收取权利金并承担被指派时的义务。
 
-![权利、义务与权利金流向](examples/contract-counterparties.svg)
+<img src="examples/contract-counterparties.svg" alt="权利、义务与权利金流向" width="520">
 
 ### 收益曲线
 
 以一金衡盎司黄金看涨期权为例：行权价 4,150 USD、权利金 50 USD，不计费用。
 
-![行权价值与净收益](examples/option-payoff.svg)
+<img src="examples/option-payoff.svg" alt="行权价值与净收益" width="520">
 
 ## 能做什么
 
