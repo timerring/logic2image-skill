@@ -6,19 +6,19 @@ Turn an article's logic into clear explanatory diagrams.
 
 ## Examples
 
-Two illustrations from finance articles. Click a preview to open its editable SVG.
+Two illustrations from finance articles, displayed directly as SVG.
 
 ### Contract counterparties
 
 The buyer pays for a right; the seller accepts an obligation if assigned.
 
-[![Rights, obligations and premium flow](examples/contract-counterparties.png)](examples/contract-counterparties.svg)
+![Rights, obligations and premium flow](examples/contract-counterparties.svg)
 
 ### Option payoff
 
 An illustrative one-troy-ounce gold call: 4,150 USD strike, 50 USD premium, costs excluded.
 
-[![Exercise value versus net profit](examples/option-payoff.png)](examples/option-payoff.svg)
+![Exercise value versus net profit](examples/option-payoff.svg)
 
 ## What it does
 

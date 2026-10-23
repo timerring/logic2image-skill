@@ -6,19 +6,19 @@
 
 ## 示例
 
-两张金融文章配图，分别展示不同的表达方式。点击预览可打开可编辑 SVG。
+两张金融文章配图，分别展示不同的表达方式，直接以 SVG 显示。
 
 ### 合约双方
 
 买方支付权利金获得权利，卖方收取权利金并承担被指派时的义务。
 
-[![权利、义务与权利金流向](examples/contract-counterparties.png)](examples/contract-counterparties.svg)
+![权利、义务与权利金流向](examples/contract-counterparties.svg)
 
 ### 收益曲线
 
 以一金衡盎司黄金看涨期权为例：行权价 4,150 USD、权利金 50 USD，不计费用。
 
-[![行权价值与净收益](examples/option-payoff.png)](examples/option-payoff.svg)
+![行权价值与净收益](examples/option-payoff.svg)
 
 ## 能做什么
 
