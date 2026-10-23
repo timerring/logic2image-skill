@@ -4,6 +4,25 @@
 
 Turn an article's logic into clear explanatory diagrams.
 
+## Examples
+
+Example diagrams generated with logic2image. Click a preview to view the full SVG.
+
+<table>
+  <tr>
+    <th width="50%">Contract counterparties</th>
+    <th width="50%">Option payoff</th>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><a href="examples/contract-counterparties.svg"><img src="examples/contract-counterparties.svg" alt="Rights, obligations and premium flow" width="360"></a></td>
+    <td align="center" valign="top"><a href="examples/option-payoff.svg"><img src="examples/option-payoff.svg" alt="Exercise value versus net profit" width="360"></a></td>
+  </tr>
+  <tr>
+    <td align="center">Buyer rights, seller obligations<br>and premium flow.</td>
+    <td align="center">Illustrative gold call, one troy ounce.<br>Strike 4,150 USD; premium 50 USD.<br>Costs excluded.</td>
+  </tr>
+</table>
+
 ## What it does
 
 - Reads an article, identifies its key relationships and suggests where diagrams help.
@@ -60,6 +79,7 @@ render widths are also required. Reading floors are configurable with
 | `assets/` | Complete semantic palette |
 | `templates/` | Content blueprint and SVG scaffold |
 | `scripts/` | Scaffold, source checks and browser rendering |
+| `examples/` | SVG examples and PNG previews |
 
 ## Acknowledgements
 

@@ -4,6 +4,25 @@
 
 把文章里的逻辑，转化成清晰的解释型配图。
 
+## 示例
+
+以下为 logic2image 生成的示例图。点击图片可查看完整 SVG。
+
+<table>
+  <tr>
+    <th width="50%">合约双方</th>
+    <th width="50%">收益曲线</th>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><a href="examples/contract-counterparties.svg"><img src="examples/contract-counterparties.svg" alt="权利、义务与权利金流向" width="360"></a></td>
+    <td align="center" valign="top"><a href="examples/option-payoff.svg"><img src="examples/option-payoff.svg" alt="行权价值与净收益" width="360"></a></td>
+  </tr>
+  <tr>
+    <td align="center">买方的权利与卖方的义务<br>权利金流向。</td>
+    <td align="center">黄金看涨期权示例（一金衡盎司）<br>行权价 4,150 USD，权利金 50 USD。<br>不计费用。</td>
+  </tr>
+</table>
+
 ## 能做什么
 
 - 阅读文章，梳理关键关系，建议适合配图的位置。
@@ -57,6 +76,7 @@ python3 scripts/render_svg.py figure.svg --output-dir previews --widths 800 600
 | `assets/` | 完整语义配色 |
 | `templates/` | 内容蓝图与 SVG 框架 |
 | `scripts/` | 框架生成、源码检查与浏览器渲染 |
+| `examples/` | SVG 示例与 PNG 预览 |
 
 ## 致谢
 
