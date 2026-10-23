@@ -76,7 +76,7 @@ python3 scripts/render_svg.py figure.svg --output-dir previews --widths 800 600
 | `assets/` | 完整语义配色 |
 | `templates/` | 内容蓝图与 SVG 框架 |
 | `scripts/` | 框架生成、源码检查与浏览器渲染 |
-| `examples/` | SVG 示例与 PNG 预览 |
+| `examples/` | SVG 示例 |
 
 ## 致谢
 
