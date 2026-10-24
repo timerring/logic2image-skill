@@ -2,7 +2,7 @@
 
 <p align="center"><strong>English</strong> | <a href="README.zh-CN.md">简体中文</a></p>
 
-<p align="center">Where logic becomes image.</p>
+<p align="center">From logic to image.</p>
 
 ## Examples
 
