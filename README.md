@@ -1,8 +1,8 @@
-# logic2image
+<h1 align="center">logic2image</h1>
 
-**English** | [简体中文](README.zh-CN.md)
+<p align="center"><strong>English</strong> | <a href="README.zh-CN.md">简体中文</a></p>
 
-Turn an article's logic into clear explanatory diagrams.
+<p align="center">Where logic becomes image.</p>
 
 ## Examples
 

@@ -1,8 +1,8 @@
-# logic2image
+<h1 align="center">logic2image</h1>
 
-[English](README.md) | **简体中文**
+<p align="center"><a href="README.md">English</a> | <strong>简体中文</strong></p>
 
-把文章里的逻辑，转化成清晰的解释型配图。
+<p align="center">Where logic becomes image.</p>
 
 ## 示例
 
