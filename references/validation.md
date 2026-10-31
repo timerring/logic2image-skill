@@ -1,6 +1,14 @@
 # Validation and delivery
 
-Validation has three distinct parts. Never report one as proof of another.
+Validation has four independent acceptance gates. Record each as passed,
+failed or unverified; never report one as proof of another.
+
+| Gate | Evidence | Does not prove |
+|---|---|---|
+| Semantic correctness | Article/blueprint comparison; independently checked facts and arithmetic | Legibility or visual effectiveness |
+| Reference / visual fit | Opened render at reading width; comparison against Reference contract | Correct facts or correct served version |
+| Technical validity | Source, geometry, font and applicable regression checks | Clear explanation or user acceptance |
+| Host / version agreement | Actual page image URL, loaded asset and fresh host capture | All environments behave identically |
 
 ## 1. Content review
 
@@ -17,7 +25,15 @@ Against the approved blueprint and article:
 The generic validator cannot establish any of these from arbitrary SVG.
 For plots and bars, add data-specific tests beside the generator.
 
-## 2. Source and browser checks
+## 2. Reference and visual fit
+
+When a reference or visual complaint exists, follow
+[reference and revision](reference-and-revision.md). Write observable acceptance
+criteria and inspect a representative render before batch production. A helper
+named `bezier_arrow`, an SVG containing `C`, or a passing validator is not visual
+proof. If the requested shape is present but communicates poorly, revise it.
+
+## 3. Source and browser checks
 
 From this skill directory:
 
@@ -50,7 +66,7 @@ Use librsvg's `rsvg-convert` as an additional renderer if installed. Chrome
 is the supported default here. State which renderer actually ran.
 Do not claim success from an unrun or substituted check.
 
-## 3. Visual iteration
+## 4. Visual iteration and host agreement
 
 Look at rendered output:
 
@@ -65,6 +81,13 @@ Look at rendered output:
 Fix failures and rerender. A pass from automatic geometry checks does not
 replace this review. Do not spawn review agents without the user's required
 delegation authorization; direct inspection remains necessary.
+
+After visual iteration, reopen the actual article and check the image URL,
+loaded asset and rendering. For visual changes, show a fresh host capture where
+possible; a standalone render is not host evidence. If the user sees a different
+version, compare the served resource to the intended artifact before diagnosing
+the cause. If the host cannot be reached, state that limitation and show the
+standalone render instead.
 
 ## Acceptance artifacts
 
