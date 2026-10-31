@@ -27,14 +27,28 @@ Default output is English native SVG with selectable Georgia text.
    `templates/diagram-plan.md`. State what goes in each image, why that
    chart type fits, and what remains in prose. Seek content approval for a
    new multi-image plan unless already authorized to proceed.
+   If a screenshot, SVG or existing figure is supplied, first read
+   `references/reference-and-revision.md` and establish a Reference contract:
+   what must be preserved, what may change, and what would visibly fail the
+   request. Treat the reference as an acceptance input, not optional inspiration.
 3. **Design and draw.** Read `references/drawing-rules.md`,
    `references/palette.md` and `references/typography.md`. Use the complete
    local palette in `assets/palette.json`, not a substitute color scheme.
    Draft SVG from the scaffold or write native SVG following the same contract.
+   Helpers are not a whitelist: a missing helper must not force the explanation
+   into rectangles and polylines. Obtain Representative proof before repeating
+   an uncertain design: render one figure exercising the disputed or novel
+   feature, open it at reading width, and compare it with the Reference contract.
+   When execution is authorized, do this without an extra approval wait. For a
+   visual revision, repair the smallest representative figure before expanding
+   scripts, tests or skill infrastructure, unless a concrete blocker prevents it.
 4. **Validate and render.** Read `references/validation.md`. Run source checks,
    recompute quantitative data, render and inspect images at actual reading
    widths, and then verify the real article integration.
 5. **Iterate and deliver.** Fix semantic and visual failures before delivery.
+   Provide Delivery evidence: include a fresh actual-host capture for visual
+   changes when available, or clearly identify a standalone render. Link the
+   verified page/asset and state which acceptance criteria it meets.
    Report actual checks, fonts, output files and remaining limitations.
 
 ## Non-negotiable decisions
@@ -43,6 +57,12 @@ Default output is English native SVG with selectable Georgia text.
   force a workflow, tree or common root onto unrelated content.
 - Distinguish conditions, matrices, comparisons and numeric functions.
 - One clear message per image; a figure is optional if prose/table is enough.
+- Choose the explanation before the helper API. Do not answer a concrete visual
+  complaint with capability claims, documentation changes or a test count instead
+  of showing a corrected representative result.
+- Keep semantic correctness, reference/visual fit, technical validity and actual
+  host/version agreement as separate acceptance gates. A pass at one gate cannot
+  establish another. Mark unavailable checks unverified, not passed.
 - Analyze the current content to assign semantic color roles from the palette.
   Preserve established mappings within a related series. Use direct labels
   as well as color; do not reduce the palette to one accent without asking.
