@@ -8,7 +8,7 @@ failed or unverified; never report one as proof of another.
 | Semantic correctness | Article/blueprint comparison; independently checked facts and arithmetic | Legibility or visual effectiveness |
 | Reference / visual fit | Opened render at reading width; comparison against Reference contract | Correct facts or correct served version |
 | Technical validity | Source, geometry, font and applicable regression checks | Clear explanation or user acceptance |
-| Host / version agreement | Actual page image URL, loaded asset and fresh host capture | All environments behave identically |
+| Host / version agreement | Identified page or file version and a fresh capture of the figure in its intended location | All environments behave identically |
 
 ## 1. Content review
 
@@ -82,12 +82,13 @@ Fix failures and rerender. A pass from automatic geometry checks does not
 replace this review. Do not spawn review agents without the user's required
 delegation authorization; direct inspection remains necessary.
 
-After visual iteration, reopen the actual article and check the image URL,
-loaded asset and rendering. For visual changes, show a fresh host capture where
-possible; a standalone render is not host evidence. If the user sees a different
-version, compare the served resource to the intended artifact before diagnosing
-the cause. If the host cannot be reached, state that limitation and show the
-standalone render instead.
+After visual iteration, reopen the target and verify the figure in place.
+For a web page, check its URL and the image actually loaded (or the inline
+SVG). For a document or deck, identify the file version and page or slide
+number, then inspect a fresh render of that page or slide. If the projected
+or printed result was also checked, record the viewing conditions separately.
+If the target is unavailable, mark host agreement unverified and provide the
+standalone render.
 
 ## Acceptance artifacts
 

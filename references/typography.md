@@ -6,9 +6,9 @@ rendered font, and disclose a fallback rather than claiming exact Georgia.
 
 ## Match the host's body text
 
-Measure the host article's ordinary paragraph style and actual column width,
-not just viewport width. Use its body size as the reference. The 17px values
-below are examples, not a requirement for every host.
+Use the surrounding text and the space the figure occupies to choose the
+target label size. For a slide, account for viewing distance. The 17px
+column below illustrates the scaffold's starting proportions.
 Recommended ratios at the intended reading width:
 
 | Role | Body-size multiple | At 17px body |
@@ -64,6 +64,18 @@ Axis titles, row headers, value labels and annotations keep their own
 meaningful alignment; they are not whole-figure titles.
 
 ## Readability on narrow screens
+
+For responsive screen content, check the intended display width and the
+narrowest supported container. When its minimum width is unknown, use a
+**360 CSS px content width** for the narrow preview and record that assumption
+in the blueprint. Check that the rendered SVG fits inside the container and
+that the text meets the chosen reading floors. If either check fails, revise
+the layout and recheck both widths.
+
+For fixed-size output, use the figure's actual placement. Inspect a slide at
+its intended presentation size and viewing distance, or a printed figure at
+its final physical size. If the same figure also has a responsive web version,
+check that version at its supported widths.
 
 Prefer layout adaptation, stacking, shorter labels or split figures before
 shrinking. If the task requires a larger reading surface, explicitly agree

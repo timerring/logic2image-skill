@@ -67,12 +67,12 @@ representative repair; explain that blocker plainly.
 
 If the user's screenshot differs from the intended output:
 
-- Compare its title/layout with the on-disk asset and the live served asset.
-- Inspect the actual article's image URL and loaded result; source file checks
-  alone do not show what the reader received.
-- Do not assert a cache cause without evidence. Check page/asset versions first.
-- If necessary, use a new descriptive asset filename and update the real article.
-- Reopen the article, verify the new resource loaded, and capture it there.
+- For a document or deck, compare the exact file version and page or slide
+  number, reopen that file and capture the figure in place.
+- For a web page, compare the title and layout with the intended asset. Inspect
+  the actual page, image URL and loaded result before diagnosing a cache issue.
+  If a new asset filename is needed, update the reference and reopen the page
+  to capture the result.
 - Mark host verification unverified if the reader's environment is inaccessible.
 
 ## 5. Delivery evidence
@@ -81,7 +81,7 @@ Deliver the repaired visual, not just a statement that it was repaired:
 
 - Prefer an actual-host screenshot for article revisions; if only a standalone
   render was possible, label that limitation explicitly.
-- State which visible criteria changed, and provide the exact current page/asset.
+- State which visible criteria changed and identify the verified page or file.
 - Report technical checks separately and briefly.
 - Do not claim reference matching or user acceptance based on file existence,
   path commands, test results or self-declared completion.
