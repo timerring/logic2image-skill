@@ -56,6 +56,6 @@
 - Semantic correctness: passed / failed / unverified; evidence:
 - Reference / visual fit: passed / failed / unverified; evidence:
 - Technical validity: passed / failed / unverified; evidence:
-- Host / version agreement: passed / failed / unverified; page and loaded asset:
+- Host / version agreement: passed / failed / unverified; web page and loaded figure, or file version and page/slide number:
 - Delivery evidence: actual-host capture, or explicitly labeled standalone render:
 - Remaining limitations:
