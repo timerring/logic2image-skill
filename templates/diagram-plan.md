@@ -19,19 +19,21 @@
 
 ## Figure selection
 
-| File | Article insertion | Reader question | Conclusion | Diagram type | Why not prose/table? |
+| File | Article insertion | Reader question | Conclusion | What will the reader see? | Why not prose/table? |
 |---|---|---|---|---|---|
 
 ## Blueprint: <filename>
 
-- Exact English title:
-- Relation and layout:
+- Reader question and one answer supported by the passage:
+- What can the reader point to, trace or compare to see that answer?
+- Chosen composition and why it makes that feature easy to see:
+- Exact English title and visible labels:
 - Canvas ratio / intended display width / body font size:
-- Exact node/cell text or plot axes, domain and formula:
-- Connections (source → target, meaning, label), or N/A:
-- Conditions including equality / data source / units:
+- Marks and relationships for the chosen composition (e.g., parts and label
+  anchors, aligned states and differences, or axes and domain). For a flow,
+  list each step and each connection’s source, target, meaning and label if used:
+- Conditions including equality / formula or data source / units:
 - Role-to-color mapping (shared across the series):
-- Main conclusion's visual encoding:
 - Explanation placement:
 - Details left in caption:
 - Caption:
@@ -43,6 +45,7 @@
 
 ## Review before drawing
 
+- With the caption covered, which part of the figure answers the reader's question?
 - No unsupported root, hierarchy, sequence or causal edge:
 - No unnecessary overview or learning-plan outputs:
 - Numbers independently checked:

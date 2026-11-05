@@ -24,9 +24,11 @@ Default output is English native SVG with selectable Georgia text.
    Extract thesis, concepts, prerequisites, relations and evidence; then
    identify useful illustration locations. Do not start with coordinates.
 2. **Plan the images.** Read `references/diagram-planning.md`, and fill
-   `templates/diagram-plan.md`. State what goes in each image, why that
-   chart type fits, and what remains in prose. Seek content approval for a
-   new multi-image plan unless already authorized to proceed.
+   `templates/diagram-plan.md`. Start each figure with the reader's question,
+   the answer supported by the article, and the feature a reader can point to
+   to see that answer. Choose the composition from that feature, then specify
+   labels, connections if needed, and details left in prose. Seek content
+   approval for a new multi-image plan unless already authorized to proceed.
    If a screenshot, SVG or existing figure is supplied, first read
    `references/reference-and-revision.md` and establish a Reference contract:
    what must be preserved, what may change, and what would visibly fail the

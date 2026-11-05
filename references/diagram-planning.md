@@ -6,7 +6,20 @@ blueprints to the user and wait for approval. An already approved plan or
 an explicit instruction to proceed is sufficient; do not ask repeatedly
 for font-only or alignment-only revisions.
 
-## Choose the relationship, then the shape
+## Choose a composition from the reader's question
+
+First describe what the reader should be able to point to, trace or compare.
+The same account of an update can support an instruction about the next action
+or a comparison of the old and new states. Use the surrounding paragraph to
+decide which question the figure needs to answer.
+
+If a chain of labeled boxes comes to mind and the question is about an object
+or a difference, consider labeling the object in place or aligning the two
+states. Pick the view in which the reader can see the answer most directly.
+Reserve arrows for a direction or transition the source supports.
+See [one sliding-window update drawn two ways](../examples/sliding-window.md)
+when both a sequence and a comparison seem plausible. The pair illustrates
+how to choose one view for a passage.
 
 | Content | Natural diagram | Required evidence |
 |---|---|---|
@@ -17,6 +30,7 @@ for font-only or alignment-only revisions.
 | Independent modules at the same level | Parallel columns / aligned lanes | Comparable criteria |
 | Two independent dimensions | Labeled matrix | Both row and column meanings |
 | Before/after or old/new | Aligned comparison | What changed and what is held constant |
+| Parts of one object | Labels on the object, with a detail enlarged if useful | Identifiable parts and their locations |
 | Magnitude or change | Shared-scale bars / bridge | Values, units and baseline |
 | Numeric output varies with input | Function plot | Formula or data and meaningful domain |
 
@@ -36,11 +50,12 @@ levels per image.
 
 ## Blueprint contents
 
-Record exact visible text, node identities, relations, arrow labels, units,
-formula/data source, color roles, diagram filename and insertion location.
-List absent connections explicitly when their absence matters.
-For plots, replace a node list with axes, domain, formula, reference lines
-and annotation coordinates. For matrices, list dimensions and cell meanings.
+After choosing the composition, record exact visible text, color roles,
+filename and insertion location. For a flow, specify each step and the meaning
+of its connections. For an aligned comparison, identify the common reference
+and the difference to mark. For a plot, specify axes, units, domain, formula
+or data source, reference lines and annotation positions. For a matrix, list
+dimensions and cell meanings. List absent connections when their absence matters.
 
 Explanations should sit beside the feature they explain: a threshold label
 near the crossing, a conversion rate near the conversion, a distinction

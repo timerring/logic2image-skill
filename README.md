@@ -23,6 +23,9 @@ Example diagrams generated with logic2image. Click a preview to view the full SV
   </tr>
 </table>
 
+[One sliding-window update drawn two ways](examples/sliding-window.md) shows how
+the reader's question changes the composition.
+
 ## What it does
 
 - Reads an article, identifies its key relationships and suggests where diagrams help.

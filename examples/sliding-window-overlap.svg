@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="sw-overlap" class="logic2image" width="100%"
+     viewBox="0 0 720 314" role="img" aria-labelledby="sw-overlap-title" aria-describedby="sw-overlap-desc">
+  <title id="sw-overlap-title">Three items stay in both windows</title>
+  <desc id="sw-overlap-desc">The upper bracket covers A through D. The lower bracket starts one item farther right and covers B through E. In the single shared row, A leaves, B, C, D stay and E enters.</desc>
+  <defs>
+    <style>
+      #sw-overlap text { font-family: Georgia, serif; font-size: 21px; fill: #383a42; }
+      #sw-overlap .heading { font-size: 32px; }
+      #sw-overlap .item { font-size: 38px; }
+      #sw-overlap .bracket { fill: none; stroke: #5c5e66; stroke-width: 2.5; }
+      #sw-overlap [data-rg-role="coral"] { fill: #925113; }
+      #sw-overlap [data-rg-role="teal"] { fill: #015f88; }
+      #sw-overlap [data-rg-role="purple"] { fill: #771977; }
+    </style>
+  </defs>
+  <rect width="720" height="314" fill="#fff"/>
+  <text class="heading" data-rg-title="true" x="360" y="48" text-anchor="middle">Three items stay in both windows</text>
+  <g data-rg-content="true" text-anchor="middle">
+    <text x="294" y="97">Before</text>
+    <path class="bracket" data-rg-kind="guide" d="M42 128 V111 H546 V128"/>
+    <rect data-rg-kind="shape" x="174" y="135" width="372" height="86" rx="43" fill="#e1f3fa"/>
+    <text class="item" x="96" y="176" data-rg-role="coral">A</text>
+    <text class="item" x="228" y="176" data-rg-role="teal">B</text>
+    <text class="item" x="360" y="176" data-rg-role="teal">C</text>
+    <text class="item" x="492" y="176" data-rg-role="teal">D</text>
+    <text class="item" x="624" y="176" data-rg-role="purple">E</text>
+    <text x="96" y="207" data-rg-role="coral">leaves</text>
+    <text x="360" y="207" data-rg-role="teal">stay</text>
+    <text x="624" y="207" data-rg-role="purple">enters</text>
+    <path class="bracket" data-rg-kind="guide" d="M174 229 V246 H678 V229"/>
+    <text x="426" y="280">After</text>
+  </g>
+</svg>

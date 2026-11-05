@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="sw-steps" class="logic2image" width="100%"
+     viewBox="0 0 720 250" role="img" aria-labelledby="sw-steps-title" aria-describedby="sw-steps-desc">
+  <title id="sw-steps-title">Remove first, then append</title>
+  <desc id="sw-steps-desc">Three snapshots in update order. The window starts with A, B, C, D. Removing A from the left leaves B, C, D between operations. Appending E on the right gives B, C, D, E.</desc>
+  <defs>
+    <style>
+      #sw-steps text { font-family: Georgia, serif; font-size: 21px; fill: #383a42; }
+      #sw-steps .heading { font-size: 32px; }
+      #sw-steps .items { font-size: 29px; }
+      #sw-steps .rg-support { font-size: 19px; fill: #696c77; }
+      #sw-steps .snapshot { fill: #fff; stroke: #5c5e66; stroke-width: 1.6; }
+      #sw-steps [data-rg-role="coral"] { fill: #925113; }
+      #sw-steps [data-rg-role="teal"] { fill: #015f88; }
+      #sw-steps [data-rg-role="purple"] { fill: #771977; }
+    </style>
+    <marker id="sw-steps-arrow" viewBox="0 0 10 10" refX="9" refY="5"
+            markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#5c5e66"/>
+    </marker>
+  </defs>
+  <rect width="720" height="250" fill="#fff"/>
+  <text class="heading" data-rg-title="true" x="360" y="48" text-anchor="middle">Remove first, then append</text>
+  <g data-rg-content="true" text-anchor="middle">
+    <text class="rg-support" x="99" y="102">Start</text>
+    <text class="rg-support" x="360" y="102">Between operations</text>
+    <text class="rg-support" x="621" y="102">Finish</text>
+    <rect class="snapshot" data-rg-kind="shape" x="24" y="127" width="150" height="63" rx="9"/>
+    <rect class="snapshot" data-rg-kind="shape" x="301" y="127" width="118" height="63" rx="9"/>
+    <rect class="snapshot" data-rg-kind="shape" x="546" y="127" width="150" height="63" rx="9"/>
+    <text class="items" x="99" y="169"><tspan data-rg-role="coral">A</tspan><tspan data-rg-role="teal"> B C D</tspan></text>
+    <text class="items" x="360" y="169" data-rg-role="teal">B C D</text>
+    <text class="items" x="621" y="169"><tspan data-rg-role="teal">B C D </tspan><tspan data-rg-role="purple">E</tspan></text>
+    <path data-rg-kind="connector" d="M181 159 H294" fill="none" stroke="#5c5e66" stroke-width="2.2" marker-end="url(#sw-steps-arrow)"/>
+    <path data-rg-kind="connector" d="M426 159 H539" fill="none" stroke="#5c5e66" stroke-width="2.2" marker-end="url(#sw-steps-arrow)"/>
+    <text x="237" y="142" data-rg-role="coral">Remove A</text>
+    <text x="483" y="142" data-rg-role="purple">Append E</text>
+    <text class="rg-support" x="237" y="187">from left</text>
+    <text class="rg-support" x="483" y="187">on right</text>
+  </g>
+</svg>
