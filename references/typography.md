@@ -65,6 +65,17 @@ meaningful alignment; they are not whole-figure titles.
 
 ## Readability on narrow screens
 
+For a blog illustration, include the narrowest supported article column in
+the render checks. When that width is unknown, use a **360 CSS px content
+column** as a standalone check alongside the intended reading width. Record
+the assumption in the blueprint. Use a known host minimum or an explicitly
+requested fixed-width format in preference to this fallback.
+
+At the narrow width, compare the rendered SVG width with the column width
+as well as checking the text-size floors. A minimum-width canvas can hide
+overflow from a text-only check. If either check fails, revise the figure
+and inspect it again at both widths before reporting it as readable.
+
 Prefer layout adaptation, stacking, shorter labels or split figures before
 shrinking. If the task requires a larger reading surface, explicitly agree
 on horizontal scrolling or an enlarged view. A clipped screenshot is not
