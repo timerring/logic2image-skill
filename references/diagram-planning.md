@@ -71,8 +71,8 @@ Conversely, do not invent numerical axes for purely categorical information.
 ## Spatial plan
 
 Honor a requested aspect ratio. When unspecified, start with 16:9 for a
-presentation-oriented task. For a blog, measure the real embedding column
-before choosing the final canvas; recommend a different ratio if it helps.
+presentation-oriented task. For an embedded figure, measure the space it
+occupies on the page, in the document or on the slide before choosing a canvas.
 Do not silently impose 1600×900 on every structure.
 
 Wide canvases favor horizontal flow; tall ones favor vertical flow; squares
