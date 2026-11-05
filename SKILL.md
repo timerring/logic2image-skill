@@ -1,6 +1,6 @@
 ---
 name: logic2image
-description: Plan and create English blog SVG illustrations using article comprehension, explicit diagram blueprints, drawing checks, a semantic palette and Georgia typography. Use for article illustration, flows, matrices, comparisons and quantitative explanations, including requests to choose what to draw before drawing.
+description: Plan and create editable English SVG illustrations from source material for web pages, documents and presentations. Use for article illustration, flows, matrices, comparisons and quantitative explanations, including requests to choose what to draw before drawing.
 ---
 
 # logic2image
@@ -13,8 +13,8 @@ notices are preserved separately.
 
 ## Scope
 
-Create accurate, readable article illustrations, not a mandatory learning
-report or a fixed bundle of diagrams. Content and chart choice come before
+Create accurate, readable illustrations for the intended medium. Let the source
+determine which figures to include. Content and chart choice come before
 styling. Keep old skills and existing article assets unchanged unless asked.
 Default output is English native SVG with selectable Georgia text.
 
@@ -46,7 +46,8 @@ Default output is English native SVG with selectable Georgia text.
    scripts, tests or skill infrastructure, unless a concrete blocker prevents it.
 4. **Validate and render.** Read `references/validation.md`. Run source checks,
    recompute quantitative data, render and inspect images at actual reading
-   widths, and then verify the real article integration.
+   widths, and verify the figure in the intended page, document or slide
+   when available.
 5. **Iterate and deliver.** Fix semantic and visual failures before delivery.
    Provide Delivery evidence: include a fresh actual-host capture for visual
    changes when available, or clearly identify a standalone render. Link the
